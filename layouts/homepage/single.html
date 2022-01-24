@@ -34,7 +34,7 @@
         <h1 class="mb-0">Welkom</h1>
         <h2 class="mb-100 title-border-lg">op <i>{{site.Params.author}} site</i></h2>
         <p class="mb-80 mr-5">{{site.Params.bio | markdownify }}</p>
-        <span class="font-secondary text-dark mr-3 mr-sm-5">Volg me :</span>
+        <span class="font-secondary text-dark mr-3 mr-sm-5"></span>
         <ul class="list-inline d-inline-block mb-5">
           {{ range site.Params.social }}
           <li class="list-inline-item mx-3"><a href="{{.URL}}" class="text-dark"><i class="{{.icon}}"></i></a></li>
@@ -91,7 +91,7 @@
             </ul>
             <h4 class="mb-4"><a href="{{.Permalink}}" class="text-dark">{{ .Title }}</a></h4>
             <p class="mb-0 post-summary">{{.Summary }}</p>
-            <a class="btn btn-transparent mb-4" href="{{.Permalink}}">Continue...</a>
+            <a class="btn btn-transparent mb-4" href="{{.Permalink}}">Lees verder...</a>
           </div>
         </article>
       </div>
